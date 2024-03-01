@@ -12,7 +12,7 @@ import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience");
+  const { ref, inView } = useSectionInView("Experience");
   return (
     <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
@@ -20,6 +20,7 @@ export default function Experience() {
         {experiencesData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
+              visible={inView} // This makes animation work, package is broken for Next 14. When fixed, remove this line and animation should work.
               contentStyle={{
                 background: "#f3f4f6",
                 boxShadow: "none",

@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "University of Florida Computer Science Student",
     location: "Gainesville, FL",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I am currently pursuing a Bachelor's degree in Computer Science at the University of Florida. I am expected to graduate in 2025.",
     icon: React.createElement(LuGraduationCap),
     date: "2021 - Present",
   },
@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "Gainesville, FL",
     description:
       "I worked as a front-end developer for a semester as part of a group project for the Active Learning Program at the University of Florida.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(FaReact),
     date: "2023",
   },
   {
@@ -55,7 +55,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "I'm currently working as a digital publishing intern at Math Nation. I'm responsible for creating and maintaining the study materials and guides for students.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
 ] as const;
