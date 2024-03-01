@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import jotion from "@/public/jotion.png";
+import ploo from "@/public/ploo.png";
+import terminal from "@/public/terminal.png";
 
 export const links = [
   {
@@ -44,43 +44,43 @@ export const experiencesData = [
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Gainesville, FL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a front-end developer for a semester as part of a group project for the Active Learning Program at the University of Florida.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Digital Publishing Intern",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm currently working as a digital publishing intern at Math Nation. I'm responsible for creating and maintaining the study materials and guides for students.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Ploo",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Clone of the popular streaming platform Twitch. It has features like live chat, video player, and user authentication.",
+    tags: ["React", "Next.js 13", "Prisma", "Tailwind", "Socket.io", "MySQL"],
+    imageUrl: ploo,
   },
   {
-    title: "rmtDev",
+    title: "Jotion",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Clone of the popular notetaking app Notion. It has features like drag and drop, rich text editing, and dark mode.",
+    tags: ["React", "Next.js 13", "Convex", "Tailwind", "Clerk", "shadcn"],
+    imageUrl: jotion,
   },
   {
-    title: "Word Analytics",
+    title: "Terminal Portfolio",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A linux terminal based portfolio website. It has features like command line interface, dark mode, and responsive design. Built using LiveTerm.",
+    tags: ["React", "Next.js", "Typescript", "Tailwind"],
+    imageUrl: terminal,
   },
 ] as const;
 
