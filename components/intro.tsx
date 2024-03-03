@@ -89,7 +89,7 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  hover:scale-105 active:scale-100 transition cursor-pointer borderBlack"
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  hover:scale-105 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
           download
         >
@@ -98,7 +98,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none  hover:scale-[1.15] hover:text-gray-950 active:scale-100 transition cursor-pointer borderBlack"
+          className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none  hover:scale-[1.15] hover:text-gray-950 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://linkedin.com/in/tylerlandtroop"
           target="_blank"
         >
@@ -106,7 +106,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white text-gray-700 p-4 flex items-center gap-2 text-[1.35rem] rounded-full outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-100 transition cursor-pointer borderBlack"
+          className="bg-white text-gray-700 p-4 flex items-center gap-2 text-[1.35rem] rounded-full outline-none hover:scale-[1.15] hover:text-gray-950 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/tlandtroop"
           target="_blank"
         >
