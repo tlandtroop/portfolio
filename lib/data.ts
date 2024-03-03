@@ -67,6 +67,7 @@ export const projectsData = [
       "Clone of the popular streaming platform Twitch. It has features like live chat, video player, and user authentication.",
     tags: ["React", "Next.js 13", "Prisma", "Tailwind", "Socket.io", "MySQL"],
     imageUrl: ploo,
+    projectUrl: "https://ploo.vercel.app",
   },
   {
     title: "Jotion",
@@ -74,6 +75,7 @@ export const projectsData = [
       "Clone of the popular notetaking app Notion. It has features like drag and drop, rich text editing, and dark mode.",
     tags: ["React", "Next.js 13", "Convex", "Tailwind", "Clerk", "shadcn"],
     imageUrl: jotion,
+    projectUrl: "https://jotion-tlandtroop.vercel.app",
   },
   {
     title: "Terminal Portfolio",
@@ -81,6 +83,7 @@ export const projectsData = [
       "A linux terminal based portfolio website. It has features like command line interface, dark mode, and responsive design. Built using LiveTerm.",
     tags: ["React", "Next.js", "Typescript", "Tailwind"],
     imageUrl: terminal,
+    projectUrl: "https://terminal-tlandtroop.vercel.app",
   },
 ] as const;
 
