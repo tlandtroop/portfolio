@@ -64,7 +64,7 @@ export default function Intro() {
         transition={{ type: "spring", duration: 0.5 }}
       >
         <span className="font-bold">Hello, I'm Tyler.</span> I'm a{" "}
-        <span className="font-bold">3rd year CS student</span> at the{" "}
+        <span className="font-bold">4th year CS student</span> at the{" "}
         <span className="font-bold">University of Florida</span>. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
         <span className="underline">React (Next.js)</span>.
@@ -90,7 +90,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none  hover:scale-105 active:scale-100 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/Tyler Landtroop Resume.pdf"
           download
         >
           Download CV{" "}

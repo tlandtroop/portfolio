@@ -1,9 +1,8 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+
+import { FaCode, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import jotion from "@/public/jotion.png";
-import ploo from "@/public/ploo.png";
 import terminal from "@/public/terminal.png";
 
 export const links = [
@@ -35,12 +34,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "University of Florida Computer Science Student",
-    location: "Gainesville, FL",
+    title: "Software Engineer Intern",
+    location: "Jacksonville, FL",
     description:
-      "I am currently pursuing a Bachelor's degree in Computer Science at the University of Florida. I am expected to graduate in 2025.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2021 - Present",
+      "Developed full-stack features using Java, Spring, and TypeScript at Intercontinental Exchange, supporting the transition from legacy COBOL systems to a modern MSP DX platform. Improved code coverage by 35% through test-driven development and reduced user onboarding time by 4 months.",
+    icon: React.createElement(FaCode),
+    date: "2024",
   },
   {
     title: "Front-End Developer",
@@ -51,24 +50,16 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "Digital Publishing Intern",
-    location: "Remote",
+    title: "University of Florida Computer Science Student",
+    location: "Gainesville, FL",
     description:
-      "I'm currently working as a digital publishing intern at Math Nation. I'm responsible for creating and maintaining the study materials and guides for students.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023 - present",
+      "I am currently pursuing a Bachelor's degree in Computer Science at the University of Florida. I am expected to graduate in May 2025.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021 - Present",
   },
 ] as const;
 
 export const projectsData = [
-  {
-    title: "Ploo",
-    description:
-      "Clone of the popular streaming platform Twitch. It has features like live chat, video player, and user authentication.",
-    tags: ["React", "Next.js 13", "Prisma", "Tailwind", "Socket.io", "MySQL"],
-    imageUrl: ploo,
-    projectUrl: "https://ploo.vercel.app",
-  },
   {
     title: "Jotion",
     description:
@@ -105,6 +96,9 @@ export const skillsData = [
   "Framer Motion",
   "Java",
   "C++",
+  "AWS",
+  "Test Driven Development",
+  "Agile",
   "Data Structures",
   "Algorithms",
 ] as const;
