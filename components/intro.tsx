@@ -63,7 +63,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", duration: 0.5 }}
       >
-        <span className="font-bold">Hello, I'm Tyler.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Tyler Landtroop.</span> I'm a{" "}
         <span className="font-bold">4th year CS student</span> at the{" "}
         <span className="font-bold">University of Florida</span>. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
