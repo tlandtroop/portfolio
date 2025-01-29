@@ -4,6 +4,7 @@ import { FaCode, FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import jotion from "@/public/jotion.png";
 import terminal from "@/public/terminal.png";
+import edtech from "@/public/edtech.png";
 
 export const links = [
   {
@@ -61,6 +62,14 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Terminal Portfolio",
+    description:
+      "A React-based terminal portfolio website featuring command-line navigation, interactive commands, and a dark/light theme.",
+    tags: ["React", "Next.js", "Typescript", "Tailwind"],
+    imageUrl: terminal,
+    projectUrl: "https://terminal-tlandtroop.vercel.app",
+  },
+  {
     title: "Jotion",
     description:
       "Clone of the popular notetaking app Notion. It has features like drag and drop, rich text editing, and dark mode.",
@@ -69,12 +78,12 @@ export const projectsData = [
     projectUrl: "https://jotion-tlandtroop.vercel.app",
   },
   {
-    title: "Terminal Portfolio",
+    title: "Ed Tech Evolution",
     description:
-      "A linux terminal based portfolio website. It has features like command line interface, dark mode, and responsive design. Built using LiveTerm.",
-    tags: ["React", "Next.js", "Typescript", "Tailwind"],
-    imageUrl: terminal,
-    projectUrl: "https://terminal-tlandtroop.vercel.app",
+      "Next.js 14 website built with Tailwind CSS, Framer Motion, Clerk, Resend, and shadcn/ui, featuring a modern dark theme and responsive design.",
+    tags: ["React", "Next.js", "Typescript", "Tailwind", "Resend"],
+    imageUrl: edtech,
+    projectUrl: "https://edtech-evolution.com/",
   },
 ] as const;
 
